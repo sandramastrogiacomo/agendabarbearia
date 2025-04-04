@@ -1,101 +1,73 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>barber-shop-api</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+💈 Agenda Barbearia
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+Este projeto é uma reprodução de um treinamento da DIO (Digital Innovation One), ministrado por Rodrigo Peleias, com o objetivo de praticar e consolidar conhecimentos em desenvolvimento web com Java.
 
-</p>
+A aplicação simula uma agenda de barbearia, permitindo o cadastro de clientes, serviços, horários e agendamentos.
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/juniorjrjl">
-        <img src="https://avatars.githubusercontent.com/u/6619093?u=0afe982a654793dfc9e886acab8b417aa632f511&v=4" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em desenvolvimento Backend (Principalmente com Java mas já atuei com Scala, Python, Kotlin).
-      <br/>
-     🌟 Desenvolvedor backend - CAJU
-      <br/>
-    👨‍💻 Foco em back-ends
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/josé-luiz-abreu-cardoso-junior-18483872/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/junior.jose.lz/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+🚀 Tecnologias utilizadas
 
-<br/>
-<br/>
+Java
 
-## 💻 Sobre o Projeto
+Spring Boot
 
-Vamos criar um projeto Java com Spring para agendamento de atendimento em uma barbearia, vamos usar JPA com Hibernate para salvar os dados no PostgresSQL, gerenciar migrations do banco de Dados com Flyway
+Spring Data JPA
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+MySQL
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+Lombok
 
-  - Java | Intermediário
-  - SQL | Intermediário
-  - Gradle | Básico
-  - Spring | Básico
-  - Docker | Básico (opcional)
-  - Docker Compose | Básico (opcional)
+Swagger (Documentação da API)
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+Postman (para testes)
 
-  - Backend
-    - Trabalhar de forma correta com os verbos HTTP
-    - Comunicação com backend
-    - Versionamento de base de dados
-    - Gerenciar comunicação com banco de dados usando JPA com Hibernate
+🎯 Funcionalidades
+Cadastro de clientes
 
-## 🎯 Objetivos e Resultados Esperados
+Cadastro de serviços
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+Agendamento de horários
 
-- Criar um projeto Java com Spring.
-- Criar uma API REST com boas práticas
+Consulta de agendamentos
 
-<!--START_SECTION:footer-->
+Relacionamento entre entidades
 
-<br />
-<br />
+📚 Aprendizados
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+Durante a construção deste projeto, foram trabalhados os seguintes conceitos:
+
+Criação de APIs REST com Spring Boot
+
+Modelagem de banco de dados relacional
+
+Integração com MySQL utilizando JPA/Hibernate
+
+Boas práticas na construção de aplicações Java
+
+Utilização do Swagger para documentação de endpoints
+
+📁 Como executar o projeto
+
+Clone o repositório:
+
+bash
+Copiar
+Editar
+
+git clone https://github.com/sandramastrogiacomo/agendabarbearia.git
+
+Importe o projeto em sua IDE Java (IntelliJ, Eclipse, VS Code, etc).
+
+Configure seu banco de dados MySQL com as credenciais no arquivo application.properties.
+
+Execute a aplicação.
+
+Acesse a documentação da API no navegador:
+
+bash
+Copiar
+Editar
+http://localhost:8080/swagger-ui.html
+
+🧠 Créditos
+
+Projeto baseado no treinamento da Digital Innovation One (DIO), ministrado pelo instrutor Rodrigo Peleias.
